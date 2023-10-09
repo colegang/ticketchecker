@@ -5,9 +5,11 @@ import java.util.TreeMap;
 class Main {
 
     static TreeMap<String, String> responses = new TreeMap<>();
+    static TreeMap<String, String> venmo = new TreeMap<>();
 
     public static void main(String[] args) {
         formToRBT("BVB Ticket Order Form (Responses) - Form Responses.csv");
+        formToRBT("Venmo Transactions History.csv");
     }
 
     public static void formToRBT(String filepath){
